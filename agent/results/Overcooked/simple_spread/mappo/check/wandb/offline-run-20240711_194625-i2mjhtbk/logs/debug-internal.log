@@ -1,0 +1,14 @@
+2024-07-11 19:46:28,152 INFO    StreamThr :5468 [internal.py:wandb_internal():85] W&B internal server running at pid: 5468, started at: 2024-07-11 19:46:28.151091
+2024-07-11 19:46:28,154 DEBUG   HandlerThread:5468 [handler.py:handle_request():158] handle_request: status
+2024-07-11 19:46:28,163 INFO    WriterThread:5468 [datastore.py:open_for_write():87] open: F:\Hierarchical-Language-Agent-main\agent\results\Overcooked\simple_spread\mappo\check\wandb\offline-run-20240711_194625-i2mjhtbk\run-i2mjhtbk.wandb
+2024-07-11 19:46:28,176 DEBUG   HandlerThread:5468 [handler.py:handle_request():158] handle_request: run_start
+2024-07-11 19:46:28,186 DEBUG   HandlerThread:5468 [system_info.py:__init__():26] System info init
+2024-07-11 19:46:28,187 DEBUG   HandlerThread:5468 [system_info.py:__init__():41] System info init done
+2024-07-11 19:46:28,187 INFO    HandlerThread:5468 [system_monitor.py:start():194] Starting system monitor
+2024-07-11 19:46:28,188 INFO    SystemMonitor:5468 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-11 19:46:28,188 INFO    HandlerThread:5468 [system_monitor.py:probe():214] Collecting system info
+2024-07-11 19:46:28,191 INFO    SystemMonitor:5468 [interfaces.py:start():188] Started cpu monitoring
+2024-07-11 19:46:28,191 INFO    SystemMonitor:5468 [interfaces.py:start():188] Started disk monitoring
+2024-07-11 19:46:28,192 INFO    SystemMonitor:5468 [interfaces.py:start():188] Started gpu monitoring
+2024-07-11 19:46:28,199 INFO    SystemMonitor:5468 [interfaces.py:start():188] Started memory monitoring
+2024-07-11 19:46:28,225 INFO    SystemMonitor:5468 [interfaces.py:start():188] Started network monitoring

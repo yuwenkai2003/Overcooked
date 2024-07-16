@@ -1,0 +1,38 @@
+2024-07-09 08:23:27,702 INFO    StreamThr :620 [internal.py:wandb_internal():85] W&B internal server running at pid: 620, started at: 2024-07-09 08:23:27.701660
+2024-07-09 08:23:27,703 DEBUG   HandlerThread:620 [handler.py:handle_request():158] handle_request: status
+2024-07-09 08:23:27,705 INFO    WriterThread:620 [datastore.py:open_for_write():87] open: F:\Hierarchical-Language-Agent-main\agent\results\Overcooked\simple_spread\mappo\check\wandb\offline-run-20240709_082325-3nrdnmuj\run-3nrdnmuj.wandb
+2024-07-09 08:23:27,714 DEBUG   HandlerThread:620 [handler.py:handle_request():158] handle_request: run_start
+2024-07-09 08:23:27,725 DEBUG   HandlerThread:620 [system_info.py:__init__():26] System info init
+2024-07-09 08:23:27,725 DEBUG   HandlerThread:620 [system_info.py:__init__():41] System info init done
+2024-07-09 08:23:27,725 INFO    HandlerThread:620 [system_monitor.py:start():194] Starting system monitor
+2024-07-09 08:23:27,725 INFO    SystemMonitor:620 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-09 08:23:27,726 INFO    HandlerThread:620 [system_monitor.py:probe():214] Collecting system info
+2024-07-09 08:23:27,729 INFO    SystemMonitor:620 [interfaces.py:start():188] Started cpu monitoring
+2024-07-09 08:23:27,730 INFO    SystemMonitor:620 [interfaces.py:start():188] Started disk monitoring
+2024-07-09 08:23:27,731 INFO    SystemMonitor:620 [interfaces.py:start():188] Started gpu monitoring
+2024-07-09 08:23:27,737 INFO    SystemMonitor:620 [interfaces.py:start():188] Started memory monitoring
+2024-07-09 08:23:27,747 INFO    SystemMonitor:620 [interfaces.py:start():188] Started network monitoring
+2024-07-09 08:23:28,144 DEBUG   HandlerThread:620 [system_info.py:probe():152] Probing system
+2024-07-09 08:23:28,145 ERROR   gpu       :620 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:23:28,145 ERROR   gpu       :620 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:23:28,146 DEBUG   HandlerThread:620 [gitlib.py:_init_repo():56] git repository is invalid
+2024-07-09 08:23:28,146 DEBUG   HandlerThread:620 [system_info.py:probe():200] Probing system done
+2024-07-09 08:23:28,146 DEBUG   HandlerThread:620 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.14', 'heartbeatAt': '2024-07-09T00:23:28.144856', 'startedAt': '2024-07-09T00:23:25.231006', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'F:\\Hierarchical-Language-Agent-main\\agent\\agent\\onpolicy\\scripts\\train\\train_overcooked.py', 'codePathLocal': 'train_overcooked.py', 'codePath': 'train_overcooked.py', 'host': 'YuWenkai', 'username': 'TFTL', 'executable': 'C:\\ProgramData\\Miniconda3\\envs\\env-agent\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3110.0, 'min': 0.0, 'max': 3110.0}, 'cpu_freq_per_core': [{'current': 3110.0, 'min': 0.0, 'max': 3110.0}], 'disk': {'/': {'total': 90.57323837280273, 'used': 67.11274719238281}}, 'gpu': 'NVIDIA GeForce MX450', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce MX450', 'memory_total': 2147483648}], 'memory': {'total': 15.788383483886719}}
+2024-07-09 08:23:28,147 INFO    HandlerThread:620 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-09 08:23:28,147 INFO    HandlerThread:620 [system_monitor.py:probe():227] Publishing system info
+2024-07-09 08:23:28,147 DEBUG   HandlerThread:620 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-07-09 08:23:29,712 DEBUG   HandlerThread:620 [system_info.py:_save_conda():224] Saving conda packages done
+2024-07-09 08:23:29,712 INFO    HandlerThread:620 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-09 08:23:29,818 DEBUG   HandlerThread:620 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-09 08:23:30,565 ERROR   gpu       :620 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:23:30,565 ERROR   gpu       :620 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:23:32,750 DEBUG   HandlerThread:620 [handler.py:handle_request():158] handle_request: status_report
+2024-07-09 08:23:32,750 DEBUG   SenderThread:620 [sender.py:send_request():406] send_request: status_report
+2024-07-09 08:23:32,978 ERROR   gpu       :620 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:23:32,978 ERROR   gpu       :620 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:23:35,391 ERROR   gpu       :620 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:23:35,391 ERROR   gpu       :620 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:23:37,790 DEBUG   HandlerThread:620 [handler.py:handle_request():158] handle_request: status_report
+2024-07-09 08:23:37,790 DEBUG   SenderThread:620 [sender.py:send_request():406] send_request: status_report
+2024-07-09 08:23:37,817 ERROR   gpu       :620 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:23:37,828 ERROR   gpu       :620 [interfaces.py:monitor():142] Failed to sample metric: Not Supported

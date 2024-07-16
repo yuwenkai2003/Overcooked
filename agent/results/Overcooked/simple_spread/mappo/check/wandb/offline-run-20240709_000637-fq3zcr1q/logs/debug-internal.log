@@ -1,0 +1,65 @@
+2024-07-09 00:06:40,520 INFO    StreamThr :17440 [internal.py:wandb_internal():85] W&B internal server running at pid: 17440, started at: 2024-07-09 00:06:40.519970
+2024-07-09 00:06:40,522 DEBUG   HandlerThread:17440 [handler.py:handle_request():158] handle_request: status
+2024-07-09 00:06:40,530 INFO    WriterThread:17440 [datastore.py:open_for_write():87] open: F:\Hierarchical-Language-Agent-main\agent\results\Overcooked\simple_spread\mappo\check\wandb\offline-run-20240709_000637-fq3zcr1q\run-fq3zcr1q.wandb
+2024-07-09 00:06:40,543 DEBUG   HandlerThread:17440 [handler.py:handle_request():158] handle_request: run_start
+2024-07-09 00:06:40,553 DEBUG   HandlerThread:17440 [system_info.py:__init__():26] System info init
+2024-07-09 00:06:40,553 DEBUG   HandlerThread:17440 [system_info.py:__init__():41] System info init done
+2024-07-09 00:06:40,554 INFO    HandlerThread:17440 [system_monitor.py:start():194] Starting system monitor
+2024-07-09 00:06:40,554 INFO    SystemMonitor:17440 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-09 00:06:40,554 INFO    HandlerThread:17440 [system_monitor.py:probe():214] Collecting system info
+2024-07-09 00:06:40,558 INFO    SystemMonitor:17440 [interfaces.py:start():188] Started cpu monitoring
+2024-07-09 00:06:40,559 INFO    SystemMonitor:17440 [interfaces.py:start():188] Started disk monitoring
+2024-07-09 00:06:40,560 INFO    SystemMonitor:17440 [interfaces.py:start():188] Started gpu monitoring
+2024-07-09 00:06:40,566 INFO    SystemMonitor:17440 [interfaces.py:start():188] Started memory monitoring
+2024-07-09 00:06:40,576 INFO    SystemMonitor:17440 [interfaces.py:start():188] Started network monitoring
+2024-07-09 00:06:40,963 DEBUG   HandlerThread:17440 [system_info.py:probe():152] Probing system
+2024-07-09 00:06:40,965 DEBUG   HandlerThread:17440 [gitlib.py:_init_repo():56] git repository is invalid
+2024-07-09 00:06:40,965 DEBUG   HandlerThread:17440 [system_info.py:probe():200] Probing system done
+2024-07-09 00:06:40,965 DEBUG   HandlerThread:17440 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.14', 'heartbeatAt': '2024-07-08T16:06:40.963155', 'startedAt': '2024-07-08T16:06:37.944170', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'F:\\Hierarchical-Language-Agent-main\\agent\\agent\\onpolicy\\scripts\\train\\train_overcooked.py', 'codePathLocal': 'train_overcooked.py', 'codePath': 'train_overcooked.py', 'host': 'YuWenkai', 'username': 'TFTL', 'executable': 'C:\\ProgramData\\Miniconda3\\envs\\env-agent\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3110.0, 'min': 0.0, 'max': 3110.0}, 'cpu_freq_per_core': [{'current': 3110.0, 'min': 0.0, 'max': 3110.0}], 'disk': {'/': {'total': 90.57323837280273, 'used': 67.11238861083984}}, 'gpu': 'NVIDIA GeForce MX450', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce MX450', 'memory_total': 2147483648}], 'memory': {'total': 15.788383483886719}}
+2024-07-09 00:06:40,965 INFO    HandlerThread:17440 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-09 00:06:40,965 INFO    HandlerThread:17440 [system_monitor.py:probe():227] Publishing system info
+2024-07-09 00:06:40,965 DEBUG   HandlerThread:17440 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-07-09 00:06:40,967 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:06:40,967 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:06:42,454 DEBUG   HandlerThread:17440 [system_info.py:_save_conda():224] Saving conda packages done
+2024-07-09 00:06:42,454 INFO    HandlerThread:17440 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-09 00:06:42,557 DEBUG   HandlerThread:17440 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-09 00:06:43,380 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:06:43,381 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:06:45,569 DEBUG   HandlerThread:17440 [handler.py:handle_request():158] handle_request: status_report
+2024-07-09 00:06:45,569 DEBUG   SenderThread:17440 [sender.py:send_request():406] send_request: status_report
+2024-07-09 00:06:45,795 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:06:45,795 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:06:48,199 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:06:48,199 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:06:50,611 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:06:50,612 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:06:50,636 DEBUG   HandlerThread:17440 [handler.py:handle_request():158] handle_request: status_report
+2024-07-09 00:06:50,636 DEBUG   SenderThread:17440 [sender.py:send_request():406] send_request: status_report
+2024-07-09 00:06:53,016 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:06:53,016 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:06:55,419 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:06:55,419 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:06:55,696 DEBUG   HandlerThread:17440 [handler.py:handle_request():158] handle_request: status_report
+2024-07-09 00:06:55,696 DEBUG   SenderThread:17440 [sender.py:send_request():406] send_request: status_report
+2024-07-09 00:06:57,818 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:06:57,818 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:07:00,224 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:07:00,225 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:07:00,756 DEBUG   HandlerThread:17440 [handler.py:handle_request():158] handle_request: status_report
+2024-07-09 00:07:00,756 DEBUG   SenderThread:17440 [sender.py:send_request():406] send_request: status_report
+2024-07-09 00:07:02,626 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:07:02,626 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:07:05,041 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:07:05,041 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:07:05,817 DEBUG   HandlerThread:17440 [handler.py:handle_request():158] handle_request: status_report
+2024-07-09 00:07:05,818 DEBUG   SenderThread:17440 [sender.py:send_request():406] send_request: status_report
+2024-07-09 00:07:07,459 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:07:07,459 ERROR   gpu       :17440 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 00:07:08,735 INFO    memory    :17440 [interfaces.py:monitor():138] Process proc.memory.rssMB has exited.
+2024-07-09 00:07:08,736 DEBUG   SystemMonitor:17440 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-09 00:07:08,736 DEBUG   SystemMonitor:17440 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-09 00:07:08,736 DEBUG   SystemMonitor:17440 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-09 00:07:09,143 ERROR   gpu       :17440 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-07-09 00:07:09,860 INFO    MainThread:17440 [internal.py:handle_exit():75] Internal process exited
+2024-07-09 00:07:09,860 INFO    MainThread:17440 [internal.py:handle_exit():75] Internal process exited

@@ -1,0 +1,67 @@
+2024-07-09 15:44:20,688 INFO    StreamThr :26168 [internal.py:wandb_internal():85] W&B internal server running at pid: 26168, started at: 2024-07-09 15:44:20.688241
+2024-07-09 15:44:20,690 DEBUG   HandlerThread:26168 [handler.py:handle_request():158] handle_request: status
+2024-07-09 15:44:20,699 INFO    WriterThread:26168 [datastore.py:open_for_write():87] open: F:\Hierarchical-Language-Agent-main\agent\results\Overcooked\simple_spread\mappo\check\wandb\offline-run-20240709_154418-5sq028nr\run-5sq028nr.wandb
+2024-07-09 15:44:20,711 DEBUG   HandlerThread:26168 [handler.py:handle_request():158] handle_request: run_start
+2024-07-09 15:44:20,720 DEBUG   HandlerThread:26168 [system_info.py:__init__():26] System info init
+2024-07-09 15:44:20,721 DEBUG   HandlerThread:26168 [system_info.py:__init__():41] System info init done
+2024-07-09 15:44:20,721 INFO    HandlerThread:26168 [system_monitor.py:start():194] Starting system monitor
+2024-07-09 15:44:20,721 INFO    SystemMonitor:26168 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-09 15:44:20,722 INFO    HandlerThread:26168 [system_monitor.py:probe():214] Collecting system info
+2024-07-09 15:44:20,726 INFO    SystemMonitor:26168 [interfaces.py:start():188] Started cpu monitoring
+2024-07-09 15:44:20,727 INFO    SystemMonitor:26168 [interfaces.py:start():188] Started disk monitoring
+2024-07-09 15:44:20,727 INFO    SystemMonitor:26168 [interfaces.py:start():188] Started gpu monitoring
+2024-07-09 15:44:20,734 INFO    SystemMonitor:26168 [interfaces.py:start():188] Started memory monitoring
+2024-07-09 15:44:20,744 INFO    SystemMonitor:26168 [interfaces.py:start():188] Started network monitoring
+2024-07-09 15:44:21,129 DEBUG   HandlerThread:26168 [system_info.py:probe():152] Probing system
+2024-07-09 15:44:21,131 DEBUG   HandlerThread:26168 [gitlib.py:_init_repo():56] git repository is invalid
+2024-07-09 15:44:21,132 DEBUG   HandlerThread:26168 [system_info.py:probe():200] Probing system done
+2024-07-09 15:44:21,132 DEBUG   HandlerThread:26168 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.14', 'heartbeatAt': '2024-07-09T07:44:21.130471', 'startedAt': '2024-07-09T07:44:18.143923', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'F:\\Hierarchical-Language-Agent-main\\agent\\agent\\onpolicy\\scripts\\train\\train_overcooked.py', 'codePathLocal': 'train_overcooked.py', 'codePath': 'train_overcooked.py', 'host': 'YuWenkai', 'username': 'TFTL', 'executable': 'C:\\ProgramData\\Miniconda3\\envs\\env-agent\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3110.0, 'min': 0.0, 'max': 3110.0}, 'cpu_freq_per_core': [{'current': 3110.0, 'min': 0.0, 'max': 3110.0}], 'disk': {'/': {'total': 90.57323837280273, 'used': 67.20071792602539}}, 'gpu': 'NVIDIA GeForce MX450', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce MX450', 'memory_total': 2147483648}], 'memory': {'total': 15.788383483886719}}
+2024-07-09 15:44:21,132 INFO    HandlerThread:26168 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-09 15:44:21,132 INFO    HandlerThread:26168 [system_monitor.py:probe():227] Publishing system info
+2024-07-09 15:44:21,132 DEBUG   HandlerThread:26168 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-07-09 15:44:21,132 ERROR   gpu       :26168 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 15:44:21,133 ERROR   gpu       :26168 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 15:44:22,633 DEBUG   HandlerThread:26168 [system_info.py:_save_conda():224] Saving conda packages done
+2024-07-09 15:44:22,633 INFO    HandlerThread:26168 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-09 15:44:22,736 DEBUG   HandlerThread:26168 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-09 15:44:23,538 ERROR   gpu       :26168 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 15:44:23,538 ERROR   gpu       :26168 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 15:44:25,725 DEBUG   HandlerThread:26168 [handler.py:handle_request():158] handle_request: status_report
+2024-07-09 15:44:25,725 DEBUG   SenderThread:26168 [sender.py:send_request():406] send_request: status_report
+2024-07-09 15:44:25,964 ERROR   gpu       :26168 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 15:44:25,964 ERROR   gpu       :26168 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 15:44:27,989 ERROR   gpu       :26168 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 15:44:27,989 ERROR   gpu       :26168 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 15:44:30,414 ERROR   gpu       :26168 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 15:44:30,414 ERROR   gpu       :26168 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 15:44:30,776 DEBUG   HandlerThread:26168 [handler.py:handle_request():158] handle_request: status_report
+2024-07-09 15:44:30,776 DEBUG   SenderThread:26168 [sender.py:send_request():406] send_request: status_report
+2024-07-09 15:44:32,829 ERROR   gpu       :26168 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 15:44:32,829 ERROR   gpu       :26168 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 15:44:35,000 ERROR   gpu       :26168 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 15:44:35,000 ERROR   gpu       :26168 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 15:44:35,826 DEBUG   HandlerThread:26168 [handler.py:handle_request():158] handle_request: status_report
+2024-07-09 15:44:35,826 DEBUG   SenderThread:26168 [sender.py:send_request():406] send_request: status_report
+2024-07-09 15:44:37,287 DEBUG   SenderThread:26168 [sender.py:send():379] send: exit
+2024-07-09 15:44:37,287 INFO    SenderThread:26168 [sender.py:send_exit():586] handling exit code: 255
+2024-07-09 15:44:37,287 INFO    SenderThread:26168 [sender.py:send_exit():588] handling runtime: 16
+2024-07-09 15:44:37,287 INFO    SenderThread:26168 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-09 15:44:37,287 INFO    SenderThread:26168 [sender.py:send_exit():594] send defer
+2024-07-09 15:44:37,288 DEBUG   HandlerThread:26168 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 15:44:37,288 INFO    HandlerThread:26168 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-09 15:44:37,288 DEBUG   SenderThread:26168 [sender.py:send_request():406] send_request: defer
+2024-07-09 15:44:37,288 INFO    SenderThread:26168 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-09 15:44:37,288 INFO    SenderThread:26168 [sender.py:transition_state():614] send defer: 1
+2024-07-09 15:44:37,288 DEBUG   HandlerThread:26168 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 15:44:37,288 INFO    HandlerThread:26168 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-09 15:44:37,289 DEBUG   SenderThread:26168 [sender.py:send_request():406] send_request: defer
+2024-07-09 15:44:37,289 INFO    SenderThread:26168 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-09 15:44:37,289 INFO    SenderThread:26168 [sender.py:transition_state():614] send defer: 2
+2024-07-09 15:44:37,289 DEBUG   HandlerThread:26168 [handler.py:handle_request():158] handle_request: defer
+2024-07-09 15:44:37,289 INFO    HandlerThread:26168 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-09 15:44:37,289 INFO    HandlerThread:26168 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-09 15:44:37,289 DEBUG   SystemMonitor:26168 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-09 15:44:37,289 DEBUG   SystemMonitor:26168 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-09 15:44:37,289 INFO    HandlerThread:26168 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-09 15:44:37,290 DEBUG   SystemMonitor:26168 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-09 15:44:37,290 INFO    HandlerThread:26168 [interfaces.py:finish():200] Joined disk monitor

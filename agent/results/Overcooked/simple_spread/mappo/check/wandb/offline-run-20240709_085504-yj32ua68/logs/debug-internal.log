@@ -1,0 +1,46 @@
+2024-07-09 08:55:06,615 INFO    StreamThr :11672 [internal.py:wandb_internal():85] W&B internal server running at pid: 11672, started at: 2024-07-09 08:55:06.614171
+2024-07-09 08:55:06,616 DEBUG   HandlerThread:11672 [handler.py:handle_request():158] handle_request: status
+2024-07-09 08:55:06,617 INFO    WriterThread:11672 [datastore.py:open_for_write():87] open: F:\Hierarchical-Language-Agent-main\agent\results\Overcooked\simple_spread\mappo\check\wandb\offline-run-20240709_085504-yj32ua68\run-yj32ua68.wandb
+2024-07-09 08:55:06,626 DEBUG   HandlerThread:11672 [handler.py:handle_request():158] handle_request: run_start
+2024-07-09 08:55:06,636 DEBUG   HandlerThread:11672 [system_info.py:__init__():26] System info init
+2024-07-09 08:55:06,637 DEBUG   HandlerThread:11672 [system_info.py:__init__():41] System info init done
+2024-07-09 08:55:06,637 INFO    HandlerThread:11672 [system_monitor.py:start():194] Starting system monitor
+2024-07-09 08:55:06,637 INFO    SystemMonitor:11672 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-09 08:55:06,637 INFO    HandlerThread:11672 [system_monitor.py:probe():214] Collecting system info
+2024-07-09 08:55:06,641 INFO    SystemMonitor:11672 [interfaces.py:start():188] Started cpu monitoring
+2024-07-09 08:55:06,642 INFO    SystemMonitor:11672 [interfaces.py:start():188] Started disk monitoring
+2024-07-09 08:55:06,643 INFO    SystemMonitor:11672 [interfaces.py:start():188] Started gpu monitoring
+2024-07-09 08:55:06,649 INFO    SystemMonitor:11672 [interfaces.py:start():188] Started memory monitoring
+2024-07-09 08:55:06,659 INFO    SystemMonitor:11672 [interfaces.py:start():188] Started network monitoring
+2024-07-09 08:55:07,054 DEBUG   HandlerThread:11672 [system_info.py:probe():152] Probing system
+2024-07-09 08:55:07,056 ERROR   gpu       :11672 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:55:07,056 ERROR   gpu       :11672 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:55:07,057 DEBUG   HandlerThread:11672 [gitlib.py:_init_repo():56] git repository is invalid
+2024-07-09 08:55:07,057 DEBUG   HandlerThread:11672 [system_info.py:probe():200] Probing system done
+2024-07-09 08:55:07,057 DEBUG   HandlerThread:11672 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.14', 'heartbeatAt': '2024-07-09T00:55:07.054713', 'startedAt': '2024-07-09T00:55:04.152002', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'F:\\Hierarchical-Language-Agent-main\\agent\\agent\\onpolicy\\scripts\\train\\train_overcooked.py', 'codePathLocal': 'train_overcooked.py', 'codePath': 'train_overcooked.py', 'host': 'YuWenkai', 'username': 'TFTL', 'executable': 'C:\\ProgramData\\Miniconda3\\envs\\env-agent\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3110.0, 'min': 0.0, 'max': 3110.0}, 'cpu_freq_per_core': [{'current': 3110.0, 'min': 0.0, 'max': 3110.0}], 'disk': {'/': {'total': 90.57323837280273, 'used': 67.11329650878906}}, 'gpu': 'NVIDIA GeForce MX450', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce MX450', 'memory_total': 2147483648}], 'memory': {'total': 15.788383483886719}}
+2024-07-09 08:55:07,057 INFO    HandlerThread:11672 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-09 08:55:07,057 INFO    HandlerThread:11672 [system_monitor.py:probe():227] Publishing system info
+2024-07-09 08:55:07,057 DEBUG   HandlerThread:11672 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-07-09 08:55:08,610 DEBUG   HandlerThread:11672 [system_info.py:_save_conda():224] Saving conda packages done
+2024-07-09 08:55:08,610 INFO    HandlerThread:11672 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-09 08:55:08,713 DEBUG   HandlerThread:11672 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-09 08:55:09,483 ERROR   gpu       :11672 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:55:09,483 ERROR   gpu       :11672 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:55:11,662 DEBUG   HandlerThread:11672 [handler.py:handle_request():158] handle_request: status_report
+2024-07-09 08:55:11,662 DEBUG   SenderThread:11672 [sender.py:send_request():406] send_request: status_report
+2024-07-09 08:55:11,894 ERROR   gpu       :11672 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:55:11,894 ERROR   gpu       :11672 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:55:14,307 ERROR   gpu       :11672 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:55:14,307 ERROR   gpu       :11672 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:55:16,713 ERROR   gpu       :11672 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:55:16,713 ERROR   gpu       :11672 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:55:16,721 DEBUG   HandlerThread:11672 [handler.py:handle_request():158] handle_request: status_report
+2024-07-09 08:55:16,722 DEBUG   SenderThread:11672 [sender.py:send_request():406] send_request: status_report
+2024-07-09 08:55:19,153 ERROR   gpu       :11672 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:55:19,153 ERROR   gpu       :11672 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:55:20,728 INFO    cpu       :11672 [interfaces.py:monitor():138] Process cpu has exited.
+2024-07-09 08:55:20,729 DEBUG   SystemMonitor:11672 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-09 08:55:20,729 DEBUG   SystemMonitor:11672 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-09 08:55:20,729 DEBUG   SystemMonitor:11672 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-09 08:55:20,771 INFO    MainThread:11672 [internal.py:handle_exit():75] Internal process exited
+2024-07-09 08:55:20,771 INFO    MainThread:11672 [internal.py:handle_exit():75] Internal process exited

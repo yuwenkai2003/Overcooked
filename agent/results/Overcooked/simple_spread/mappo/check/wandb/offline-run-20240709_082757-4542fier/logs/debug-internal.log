@@ -1,0 +1,45 @@
+2024-07-09 08:28:00,033 INFO    StreamThr :6128 [internal.py:wandb_internal():85] W&B internal server running at pid: 6128, started at: 2024-07-09 08:28:00.032332
+2024-07-09 08:28:00,034 DEBUG   HandlerThread:6128 [handler.py:handle_request():158] handle_request: status
+2024-07-09 08:28:00,035 INFO    WriterThread:6128 [datastore.py:open_for_write():87] open: F:\Hierarchical-Language-Agent-main\agent\results\Overcooked\simple_spread\mappo\check\wandb\offline-run-20240709_082757-4542fier\run-4542fier.wandb
+2024-07-09 08:28:00,045 DEBUG   HandlerThread:6128 [handler.py:handle_request():158] handle_request: run_start
+2024-07-09 08:28:00,055 DEBUG   HandlerThread:6128 [system_info.py:__init__():26] System info init
+2024-07-09 08:28:00,055 DEBUG   HandlerThread:6128 [system_info.py:__init__():41] System info init done
+2024-07-09 08:28:00,055 INFO    HandlerThread:6128 [system_monitor.py:start():194] Starting system monitor
+2024-07-09 08:28:00,056 INFO    SystemMonitor:6128 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-09 08:28:00,056 INFO    HandlerThread:6128 [system_monitor.py:probe():214] Collecting system info
+2024-07-09 08:28:00,060 INFO    SystemMonitor:6128 [interfaces.py:start():188] Started cpu monitoring
+2024-07-09 08:28:00,060 INFO    SystemMonitor:6128 [interfaces.py:start():188] Started disk monitoring
+2024-07-09 08:28:00,061 INFO    SystemMonitor:6128 [interfaces.py:start():188] Started gpu monitoring
+2024-07-09 08:28:00,068 INFO    SystemMonitor:6128 [interfaces.py:start():188] Started memory monitoring
+2024-07-09 08:28:00,077 INFO    SystemMonitor:6128 [interfaces.py:start():188] Started network monitoring
+2024-07-09 08:28:00,474 DEBUG   HandlerThread:6128 [system_info.py:probe():152] Probing system
+2024-07-09 08:28:00,475 ERROR   gpu       :6128 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:28:00,476 ERROR   gpu       :6128 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:28:00,477 DEBUG   HandlerThread:6128 [gitlib.py:_init_repo():56] git repository is invalid
+2024-07-09 08:28:00,477 DEBUG   HandlerThread:6128 [system_info.py:probe():200] Probing system done
+2024-07-09 08:28:00,477 DEBUG   HandlerThread:6128 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.14', 'heartbeatAt': '2024-07-09T00:28:00.474973', 'startedAt': '2024-07-09T00:27:57.563814', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'F:\\Hierarchical-Language-Agent-main\\agent\\agent\\onpolicy\\scripts\\train\\train_overcooked.py', 'codePathLocal': 'train_overcooked.py', 'codePath': 'train_overcooked.py', 'host': 'YuWenkai', 'username': 'TFTL', 'executable': 'C:\\ProgramData\\Miniconda3\\envs\\env-agent\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3110.0, 'min': 0.0, 'max': 3110.0}, 'cpu_freq_per_core': [{'current': 3110.0, 'min': 0.0, 'max': 3110.0}], 'disk': {'/': {'total': 90.57323837280273, 'used': 67.11287307739258}}, 'gpu': 'NVIDIA GeForce MX450', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce MX450', 'memory_total': 2147483648}], 'memory': {'total': 15.788383483886719}}
+2024-07-09 08:28:00,477 INFO    HandlerThread:6128 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-09 08:28:00,477 INFO    HandlerThread:6128 [system_monitor.py:probe():227] Publishing system info
+2024-07-09 08:28:00,477 DEBUG   HandlerThread:6128 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-07-09 08:28:02,019 DEBUG   HandlerThread:6128 [system_info.py:_save_conda():224] Saving conda packages done
+2024-07-09 08:28:02,019 INFO    HandlerThread:6128 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-09 08:28:02,124 DEBUG   HandlerThread:6128 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-09 08:28:02,885 ERROR   gpu       :6128 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:28:02,885 ERROR   gpu       :6128 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:28:05,081 DEBUG   HandlerThread:6128 [handler.py:handle_request():158] handle_request: status_report
+2024-07-09 08:28:05,081 DEBUG   SenderThread:6128 [sender.py:send_request():406] send_request: status_report
+2024-07-09 08:28:05,294 ERROR   gpu       :6128 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:28:05,294 ERROR   gpu       :6128 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:28:07,701 ERROR   gpu       :6128 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:28:07,701 ERROR   gpu       :6128 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:28:10,117 ERROR   gpu       :6128 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:28:10,117 ERROR   gpu       :6128 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-09 08:28:10,122 DEBUG   HandlerThread:6128 [handler.py:handle_request():158] handle_request: status_report
+2024-07-09 08:28:10,122 DEBUG   SenderThread:6128 [sender.py:send_request():406] send_request: status_report
+2024-07-09 08:28:12,120 INFO    cpu       :6128 [interfaces.py:monitor():138] Process cpu has exited.
+2024-07-09 08:28:12,120 DEBUG   SystemMonitor:6128 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-09 08:28:12,121 DEBUG   SystemMonitor:6128 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-09 08:28:12,121 DEBUG   SystemMonitor:6128 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-09 08:28:12,537 ERROR   gpu       :6128 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-07-09 08:28:14,198 INFO    MainThread:6128 [internal.py:handle_exit():75] Internal process exited
+2024-07-09 08:28:14,198 INFO    MainThread:6128 [internal.py:handle_exit():75] Internal process exited

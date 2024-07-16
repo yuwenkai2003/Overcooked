@@ -1,0 +1,60 @@
+2024-07-11 18:47:07,435 INFO    StreamThr :1716 [internal.py:wandb_internal():85] W&B internal server running at pid: 1716, started at: 2024-07-11 18:47:07.434240
+2024-07-11 18:47:07,436 DEBUG   HandlerThread:1716 [handler.py:handle_request():158] handle_request: status
+2024-07-11 18:47:07,445 INFO    WriterThread:1716 [datastore.py:open_for_write():87] open: F:\Hierarchical-Language-Agent-main\agent\results\Overcooked\simple_spread\mappo\check\wandb\offline-run-20240711_184703-dztxkadx\run-dztxkadx.wandb
+2024-07-11 18:47:07,457 DEBUG   HandlerThread:1716 [handler.py:handle_request():158] handle_request: run_start
+2024-07-11 18:47:07,466 DEBUG   HandlerThread:1716 [system_info.py:__init__():26] System info init
+2024-07-11 18:47:07,467 DEBUG   HandlerThread:1716 [system_info.py:__init__():41] System info init done
+2024-07-11 18:47:07,467 INFO    HandlerThread:1716 [system_monitor.py:start():194] Starting system monitor
+2024-07-11 18:47:07,467 INFO    SystemMonitor:1716 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-11 18:47:07,468 INFO    HandlerThread:1716 [system_monitor.py:probe():214] Collecting system info
+2024-07-11 18:47:07,471 INFO    SystemMonitor:1716 [interfaces.py:start():188] Started cpu monitoring
+2024-07-11 18:47:07,472 INFO    SystemMonitor:1716 [interfaces.py:start():188] Started disk monitoring
+2024-07-11 18:47:07,473 INFO    SystemMonitor:1716 [interfaces.py:start():188] Started gpu monitoring
+2024-07-11 18:47:07,479 INFO    SystemMonitor:1716 [interfaces.py:start():188] Started memory monitoring
+2024-07-11 18:47:07,488 INFO    SystemMonitor:1716 [interfaces.py:start():188] Started network monitoring
+2024-07-11 18:47:07,874 DEBUG   HandlerThread:1716 [system_info.py:probe():152] Probing system
+2024-07-11 18:47:07,876 DEBUG   HandlerThread:1716 [gitlib.py:_init_repo():56] git repository is invalid
+2024-07-11 18:47:07,876 DEBUG   HandlerThread:1716 [system_info.py:probe():200] Probing system done
+2024-07-11 18:47:07,876 DEBUG   HandlerThread:1716 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.14', 'heartbeatAt': '2024-07-11T10:47:07.874666', 'startedAt': '2024-07-11T10:47:03.961389', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'F:\\Hierarchical-Language-Agent-main\\agent\\agent\\onpolicy\\scripts\\train\\train_overcooked.py', 'codePathLocal': 'train_overcooked.py', 'codePath': 'train_overcooked.py', 'host': 'YuWenkai', 'username': 'TFTL', 'executable': 'C:\\ProgramData\\Miniconda3\\envs\\env-agent\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3110.0, 'min': 0.0, 'max': 3110.0}, 'cpu_freq_per_core': [{'current': 3110.0, 'min': 0.0, 'max': 3110.0}], 'disk': {'/': {'total': 90.57323837280273, 'used': 67.20809936523438}}, 'gpu': 'NVIDIA GeForce MX450', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce MX450', 'memory_total': 2147483648}], 'memory': {'total': 15.788383483886719}}
+2024-07-11 18:47:07,877 INFO    HandlerThread:1716 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-11 18:47:07,877 INFO    HandlerThread:1716 [system_monitor.py:probe():227] Publishing system info
+2024-07-11 18:47:07,877 DEBUG   HandlerThread:1716 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-07-11 18:47:07,877 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:07,877 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:09,398 DEBUG   HandlerThread:1716 [system_info.py:_save_conda():224] Saving conda packages done
+2024-07-11 18:47:09,399 INFO    HandlerThread:1716 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-11 18:47:09,505 DEBUG   HandlerThread:1716 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-11 18:47:10,287 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:10,287 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:12,482 DEBUG   HandlerThread:1716 [handler.py:handle_request():158] handle_request: status_report
+2024-07-11 18:47:12,482 DEBUG   SenderThread:1716 [sender.py:send_request():406] send_request: status_report
+2024-07-11 18:47:12,702 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:12,703 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:15,124 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:15,124 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:17,537 DEBUG   HandlerThread:1716 [handler.py:handle_request():158] handle_request: status_report
+2024-07-11 18:47:17,537 DEBUG   SenderThread:1716 [sender.py:send_request():406] send_request: status_report
+2024-07-11 18:47:17,552 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:17,552 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:19,981 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:19,981 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:22,395 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:22,395 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:22,568 DEBUG   HandlerThread:1716 [handler.py:handle_request():158] handle_request: status_report
+2024-07-11 18:47:22,568 DEBUG   SenderThread:1716 [sender.py:send_request():406] send_request: status_report
+2024-07-11 18:47:24,847 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:24,847 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:27,250 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:27,250 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:27,616 DEBUG   HandlerThread:1716 [handler.py:handle_request():158] handle_request: status_report
+2024-07-11 18:47:27,616 DEBUG   SenderThread:1716 [sender.py:send_request():406] send_request: status_report
+2024-07-11 18:47:29,674 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:29,674 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:32,094 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:32,094 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:32,654 DEBUG   HandlerThread:1716 [handler.py:handle_request():158] handle_request: status_report
+2024-07-11 18:47:32,655 DEBUG   SenderThread:1716 [sender.py:send_request():406] send_request: status_report
+2024-07-11 18:47:34,518 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:34,518 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:36,934 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2024-07-11 18:47:36,934 ERROR   gpu       :1716 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
